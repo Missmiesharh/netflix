@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+
+.netflix{
+  color: red;
+  /* margin-top: 8%; */
+  height: 30px;
+  width: 120px; 
+  float: right;
+  position: absolute;
+  /* right: 10px; */
+  top: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.group{
+  background-image: linear-gradient(3deg, rgba(36, 33, 33, 0.89), rgba(15, 15, 15, 0.699)), url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
+  background-size: "cover";
+  height: 100vh; 
+  margin-top: -70px; 
+  font-size:50px; 
+  background-repeat:no-repeat; 
+  padding: 30px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar{
+  margin: 0 45px;
+  position: relative;
+  height: 10%; 
   color: white;
+  
+
+  
+} 
+
+#box{
+  padding: 20px 150px;
+  text-align: left;
+  justify-content: flex-start;
+  
 }
 
-.App-link {
-  color: #61dafb;
+::placeholder{
+  text-align: left;
+  left: px;
+  font-size: 15px;
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.getSbtn{
+  background-color: #e50914;
+  padding: 20px 60px ;
+  border: none;
+  color: white;
+  /* font-weight: 500; */
+  font-size: 1rem;
+  letter-spacing: .1px;  
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: center;
+  float: none;
+}
+
+.signin{
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: inline-end;
+  border: 0;
+  color: white;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  border-radius: 3px;
+  /* display: flex; */
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.container{
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 95px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.words{
+  color: white;
+  font-size: 20px;
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.homepage1{
+  margin-top: 8%;
+  text-align: center;
+  /* font-size: 3.125rem; */
+  font-size: 50px;
+  font-weight: bold;
+  /* line-height: 1.23rem; */
+}
+
+
+
+.homepage2{
+  text-align: center;
+  justify-content: center;
+  display: block;
+  font-size: 150%;
+  font-weight: normal;
+}
+.homopage3{
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.nextslide{
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 80px 70px ;
+  border-bottom: 10px;
+  
+}
+
+h1{
+  text-align: left;
+ 
+}
+
+h2{
+  text-align: left;
+  
+}
+
+
+
+.footer{
+  display: flex;
+  line-height: 2rem;
+  /* position: absolute; */
+  text-align: left;
 }
